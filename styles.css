@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css");
+
+body{
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.columnlogo {
+  float: left;
+  width: 24%;
+  padding: 10px 5px 5px 5px;
+  display: block;
+  height: 30px;
+ 
+}
+.columnsearch {
+  float: left;
+  width: 47%;
+  padding: 10px 5px 5px 5px;
+  display: block;
+  
+}
+.columnicons {
+  float: left;
+  width: 24%;
+  padding: 10px 5px 5px 5px;
+  
+  display: block;
+  height: 30px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  
+}
+
+.row{
+	padding: 5px;
+	position: fixed;
+	width: 100%;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+	background-color: white;
+}
+
+.searchbar{
+	width: 80%;
+	border: 2px solid white;
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+	height: 30px;
+
+}
+
+.searchbar:hover, .searchbar+active{
+	border: 2px solid white;
+}
+
+.logo{
+	display: inline;
+	color: darkblue;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 170%;
+
+}
+
+.postpic{
+	max-width: 100%;
+	max-height: 700px;
+}
+
+.story{
+	width: 700px;
+	border-radius: 10px;
+	margin: 20px 0 20px 0;
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+	border-top: 2px solid darkblue;
+}
+
+.inlinetext{
+	display: inline;
+}
+
+.gap{
+	height: 70px;
+}
+
+.story-top{
+	padding: 5px;
+}
+
+.story-bottom{
+	padding: 5px 0 10px 0;
+}
+
+.story-button{
+	border-radius: 8px;
+	padding: 5px;
+	width: 32%;
+	border: none;
+	background-color: transparent;
+	text-decoration: none;
+	color: black;
+	font-size: 110%;
+}
+
+.story-button:hover{
+	color: darkblue;
+}
+
+.icons{
+	padding: 0 10px 0 10px;
+	color: black;
+	font-size: 110%;
+}
+
+a{
+	text-decoration: none;
+}
+
+.login{
+	margin: 2%;
+	border-radius: 10px;
+	padding: 30px;
+	width: 700px;
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+	border-bottom: 2px solid black;
+
+}
+
+input{
+	width: 100%;
+	border: 2px solid white;
+	
+	border-bottom: 2px solid darkblue;
+	height: 30px;
+
+}
+
+select{
+	width: 100%;
+	border: 2px solid white;
+	border-bottom: 2px solid darkblue;
+	height: 35px;
+}
+
+input[type='submit']{
+	background-color: darkblue;
+	color: white;
+	border: 2px solid darkblue;
+	padding: 10px 20px 20px 10px;
+	border-radius: 5px;
+	font-weight: bolder;
+	width: 40%;
+}
+
+input[type='submit']:hover{
+	background-color: white;
+	color: darkblue;
+	border: 2px solid darkblue;
+	padding: 10px 20px 20px 10px;
+	border-radius: 5px;
+	font-weight: bolder;
+	width: 40%;
+}
+
+hr{
+	background-color: black;
+	border: 2px solid black;
+}
+
+.lighthr{
+	background-color: grey;
+	border: 1px solid grey;
+}
+
+.postimgdiv{
+	border-bottom: .5px solid grey;
+	border-top: .5px solid grey;
+}
